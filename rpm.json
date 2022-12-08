@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "ncdu",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "2.2.1"
+  }
+}
