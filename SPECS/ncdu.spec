@@ -1,8 +1,8 @@
 %global debug_package %{nil}
 
 Name:           ncdu
-Version:        2.2.1
-Release:        1
+Version:        2.4
+Release:        1%{?dist}
 Summary:        Ncdu is a disk usage analyzer with an ncurses interface
 Group:          Applications/System
 License:        GPLv2
@@ -32,5 +32,8 @@ rm -rf %{buildroot}
 /usr/bin/%{name}
 
 %changelog
+* Tue Jun 25 2024 Jamie Curnow <jc@jc21.com> - 2.4-1
+- v2.4
+
 * Thu Dec 8 2022 Jamie Curnow <jc@jc21.com> - 2.2.1-1
 - Initial spec
